@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site Padrão</title>
+    <link rel="stylesheet" href="assets/vendor/bootstrap/node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/vendor/bootstrap/node_modules/bootstrap-icons/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Audiowide&family=Inter+Tight:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+<!-- Botão de contato -->
+    <aside id="contate" class="position-fixed position-absolute shadow  text-center text-nowrap d-none d-lg-block">
+        <a href="#" class="text-light text-decoration-none"><i class="bi bi-chat-dots-fill"></i></a>
+    </aside>
+
+<!-- Botão de contato para mobile -->
+    <aside id="contate" class="position-fixed position-absolute shadow text-center text-nowrap d-block d-lg-none contate2">
+        <a href="#" class="text-light text-decoration-none text-nowrap"><i class="bi bi-chat-dots-fill"></i></a>
+    </aside>
+
+    <nav class="navbar navbar-expand-lg maincolor sticky-top shadow mx-0 px-0 overflow-hidden">
+        <div class="container ">
+            <a class="navbar-brand me-lg-5 ms-3 ms-lg-0 my-1 " href="#"><i class="bi bi-shield-lock-fill socialmedia text-dark"></i></a>
+
+            <ul class="navbar d-lg-flex list-unstyled me-lg-3 my-0 mx-auto py-0">
+                <li class="nav-item me-5 me-lg-4 "><a href="#"><i class="bi bi-whatsapp socialmedia text-success"></i></a></li>
+                <li class="nav-item me-5 me-lg-4 "><a href="#"><i class="bi bi-instagram socialmedia text-purple"></i></a></li>
+                <li class="nav-item me-lg-4 "><a href="#"><i class="bi bi-facebook socialmedia text-primary"></i></a></li>
+            </ul>
+
+            <button class="navbar-toggler float-end text-bg-dark me-3  " type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <i class="bi bi-three-dots"></i>
+            </button>
+
+            <div class="collapse navbar-collapse " id="navbarSupportedContent">
+                <ul class="navbar-nav my-0 mb-lg-0 lead ms-lg-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active text-dark" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" href="#">Serviços</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" href="#">Publicações</a>
+                    </li>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Action</a></li>
+                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+    <!-- <div class="invisible headersize"></div> -->
+
+
+    <div id="carouselExampleCaptions" class="carousel slide mb-5">
+        <div class="carousel-indicators mb-5">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active item1">
+                <div class="d-block w-100 invisible carousel-image" alt="..."></div>
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>SEGURANÇA</h5>
+                    <p>Monitoramento</p>
+                </div>
+            </div>
+            <div class="carousel-item item2">
+                <div class="d-block w-100 invisible carousel-image" alt="..."></div>
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Buscando qualidade</h5>
+                    <p>Some representative placeholder content for the second slide.</p>
+                </div>
+            </div>
+            <div class="carousel-item item3">
+                <div class="d-block w-100 invisible carousel-image" alt="..."></div>
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Terceirização industrial e residencial</h5>
+                    <p>Some representative placeholder content for the third slide.</p>
+                </div>
+            </div>
+            
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <div class="container">
+        <main>
+            <article class="text-bg-dark p-5 rounded-4 shadow">
+                <h1 class="text-center mt-5">ATUAÇÃO</h1>
+                <p>O Grupo FL Serviços é especializado em terceirização das áreas de Portaria, Controle de acesso e
+                    Monitoramento 24hs. Conta, em seu quadro de colaboradores, com profissionais qualificados, trazendo
+                    tranquilidade e confiança para sua empresa, condomínio ou empreendimento.</p>
+                <h1 class="text-center mt-5">UM BREVE HISTÓRICO</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam, cumque totam! Eius eum magnam nihil
+                    provident, quibusdam reiciendis. Atque cumque nulla exercitationem nostrum voluptate. Suscipit
+                    aperiam eum odio facilis architecto esse excepturi unde corporis, ad velit ipsa! Consequatur dolorum
+                    voluptates nostrum ab facere dolore libero necessitatibus! Voluptas maxime iure hic, eos
+                    perspiciatis ducimus earum unde ab, reprehenderit, non officia nostrum.</p>
+                <h1 class="text-center mt-5">SERVIÇOS</h1>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magnam commodi quos necessitatibus, facere
+                    aperiam vero voluptatem a molestiae natus ipsa sint exercitationem quas in dignissimos modi illum
+                    est! Hic magni cum ratione incidunt odio dolorem, tempore labore laborum autem ad blanditiis ex
+                    deserunt animi laudantium? Provident delectus accusantium aperiam id dolorem ad autem recusandae qui
+                    cum assumenda, cumque a obcaecati!</p>
+            </article>
+        </main>
+    </div>
+
+    <div class="container">
+        <footer class="row row-cols-1 row-cols-sm-2 row-cols-md-3 py-5 my-5 border-top">
+
+            <div class="col mb-3">
+                <h5>ENDEREÇO E CONTATOS</h5>
+                <p>Av. Andrade Neves, 1189 <br>
+                    Jardim Chapadão - Campinas-SP<br>
+                    CEP: 13013-161<br>
+                    comercial@grupoflservicos.com.br<br>
+                    19 33266187 ou 19 99955-4442</p>
+            </div>
+
+            <div class="col mb-3">
+                <h5>ÁREAS DE ATUAÇÃO
+                </h5>
+                <ul class="nav flex-column">
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Monitoramento</a>
+                    </li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Serviços</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Terceirização</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="col mb-3">
+                <h5>HORÁRIO DE FUNCIONAMENTO
+                </h5>
+                <p>Segunda a Sexta: <span class="text-end">7h30 às 17h30</span></p>
+            </div>
+
+
+        </footer>
+    </div>
+
+    <script src="assets/vendor/bootstrap/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
+<!DOCTYPE html>
+<html lang="en">
